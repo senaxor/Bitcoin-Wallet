@@ -22,11 +22,10 @@ async fn main() -> Result<()> {
     
     // println!("Generated Taproot address: {}", address);
     
-    // // Encrypt and store private key
+    // Encrypt and store private key
     // let encryption_key = [0u8; 32]; // In real app, derive from user password
     // let encrypted_key = crypto::encrypt_key(&encryption_key, &secret_key.secret_bytes())?;
     
-    // println!("hereeee");
 
     // db_client.execute(
     //     "INSERT INTO addresses (private_key, public_key, address) VALUES ($1, $2, $3)",
@@ -35,7 +34,6 @@ async fn main() -> Result<()> {
     //     &address.to_string()]
     // ).await?;
     
-    // println!("deb_1");
 
     // // Create and sign transaction (simplified example)
     // let tx_builder = transaction::TransactionBuilder::new(network);
