@@ -25,6 +25,7 @@ listen=1
 bind=127.0.0.1
 rpcport=18443
 proxy=127.0.0.1:9050" > ~/.bitcoin/bitcoin.conf
+```
 
 # Start node
 bitcoind -regtest -daemon
